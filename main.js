@@ -1,5 +1,6 @@
 import { Application } from 'pixi.js'
 import { addStars } from './addStars.js'
+import { addMoon } from './addMoon.js'
 
 const app = new Application()
 
@@ -8,4 +9,5 @@ const app = new Application()
 
   document.body.appendChild(app.canvas)
   addStars(app)
+  addMoon(app)
 })()
