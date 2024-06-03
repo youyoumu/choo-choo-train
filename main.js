@@ -2,6 +2,7 @@ import { Application } from 'pixi.js'
 import { addStars } from './addStars.js'
 import { addMoon } from './addMoon.js'
 import { addMountains } from './addMountains.js'
+import { addTrees } from './addTrees.js'
 
 const app = new Application()
 
@@ -12,4 +13,5 @@ const app = new Application()
   addStars(app)
   addMoon(app)
   addMountains(app)
+  addTrees(app)
 })()
