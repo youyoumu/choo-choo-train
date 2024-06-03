@@ -5,6 +5,7 @@ import { addMountains } from './addMountains.js'
 import { addTrees } from './addTrees.js'
 import { addGround } from './addGround'
 import { addTrain } from './addTrain.js'
+import { addSmokes } from './addSmokes.js'
 
 const app = new Application()
 const trainContainer = new Container()
@@ -19,4 +20,5 @@ const trainContainer = new Container()
   addTrees(app)
   addGround(app)
   addTrain(app, trainContainer)
+  addSmokes(app, trainContainer)
 })()
